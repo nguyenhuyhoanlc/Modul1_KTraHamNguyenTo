@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" value="" name="So bat ki" id="number" ><br>
+<button onclick="isPrime()">Ket qua</button>
+<script>
+    function isPrime(){
+        let a = document.getElementById("number").value
+        if (a % a ===0 && a % 1 ===0){
+            alert("La so nguyen to");
+        }else{
+            alert("Khong la so nguyen to");
+        }
+    }
+</script>
+</body>
+</html>
